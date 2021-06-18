@@ -1,0 +1,90 @@
+
+
+.startButton {
+    text-align: center;
+}
+
+.startButton button {
+    font-size:x-large;
+    padding: 20px;
+    border-radius: 5px;
+    color:rgb(23, 190, 149);
+    font-weight: 700;
+    box-shadow: 3px 3px 3px black;
+    border: none;
+    cursor:pointer;
+}
+
+.rulesContainer,
+.qContainer {
+    right:25%;
+    left:25%;
+    top:40%;
+    position: absolute;
+    text-align: left;
+    background: white;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display:inline-block;
+    text-align: left;
+}
+
+.quitBtn {
+
+}
+.continueBtn{
+
+}
+
+body {
+    background-color: khaki;
+}
+
+.timer {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 20px;
+}
+
+.qContainer {
+    background: white;
+    border-radius: 10px;
+}
+
+.qContainer section {
+    padding:10px;
+}
+
+ .nextBtn {
+    padding:10px;
+ }
+
+ .nextBtn button{
+     border:none;
+     background:rgb(247, 239, 172);
+     border-radius: 5px;
+     font-size: 15px;
+     box-shadow: 2px 2px 2px black;
+ }
+
+ .timeCounter {
+     font-weight: 700px;
+     font-size: 20px;
+     background-color: rgb(134, 212, 202);
+     border-radius: 5px;
+     padding:5px;
+ }
+ .q1,
+ .q2,
+ .q3,
+ .q4,
+ .q5 {
+     font-size: 24px;
+     padding: 10px 15px 20px 15px;
+ }
+
